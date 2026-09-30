@@ -1,0 +1,5 @@
+import {Link,useParams} from 'react-router-dom';
+import {ArrowLeft,ArrowUpRight} from 'lucide-react';
+import {posts,postDetails} from '../data/content';
+import {Layout,Reveal} from '../components/Layout';
+export default function InsightDetail(){const {id}=useParams();const index=Math.max(0,Math.min(posts.length-1,Number(id)-1));const [title,summary,image]=posts[index];const d=postDetails[index];return <Layout><article className="article-page"><header className="article-hero" style={{backgroundImage:`url(${image})`}}><div><span>INSIGHT · 06.09.26</span><h1>{title}</h1><p>{summary}</p></div></header><div className="article-body"><Reveal><span className="eyebrow">FROM THE JOURNAL</span><h2>{d.heading}</h2>{d.paragraphs.map(p=><p key={p}>{p}</p>)}<blockquote>{d.quote}</blockquote>{d.sections.map(s=><section key={s[0]}><h3>{s[0]}</h3><p>{s[1]}</p></section>)}<Link to="/insights" className="text-link"><ArrowLeft/> Back to insights</Link><Link to="/begin-project" className="pill dark">Begin a project <ArrowUpRight/></Link></Reveal></div></article></Layout>}

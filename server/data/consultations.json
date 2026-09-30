@@ -1,0 +1,22 @@
+[
+  {
+    "id": "BOOK-1790597812225",
+    "createdAt": "2026-09-28T12:16:52.225Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "9876543210",
+    "date": "2026-10-05",
+    "time": "11:00 AM",
+    "mode": "Video call"
+  },
+  {
+    "id": "BOOK-1790598692520",
+    "createdAt": "2026-09-28T12:31:32.520Z",
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "9876543210",
+    "date": "2026-10-05",
+    "time": "11:00 AM",
+    "mode": "Video call"
+  }
+]

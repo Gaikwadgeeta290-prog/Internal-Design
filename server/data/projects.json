@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Quiet Geometry",
+    "category": "Living",
+    "location": "Mumbai",
+    "year": "2026",
+    "status": "Published"
+  },
+  {
+    "id": 2,
+    "title": "Earth & Ember",
+    "category": "Bedroom",
+    "location": "Pune",
+    "year": "2025",
+    "status": "Published"
+  },
+  {
+    "id": 3,
+    "title": "The Gallery House",
+    "category": "Living",
+    "location": "Bengaluru",
+    "year": "2026",
+    "status": "Published"
+  },
+  {
+    "id": 4,
+    "title": "Serein Kitchen",
+    "category": "Kitchen",
+    "location": "Hyderabad",
+    "year": "2025",
+    "status": "Published"
+  },
+  {
+    "id": 5,
+    "title": "Monsoon Retreat",
+    "category": "Bedroom",
+    "location": "Goa",
+    "year": "2024",
+    "status": "Published"
+  },
+  {
+    "id": 6,
+    "title": "Marble House",
+    "category": "Dining",
+    "location": "Delhi",
+    "year": "2026",
+    "status": "Published"
+  },
+  {
+    "id": 7,
+    "title": "Linen Courtyard",
+    "category": "Living",
+    "location": "Chennai",
+    "year": "2026",
+    "status": "Published"
+  },
+  {
+    "id": 8,
+    "title": "Terracotta Study",
+    "category": "Bedroom",
+    "location": "Nashik",
+    "year": "2025",
+    "status": "Published"
+  },
+  {
+    "id": 9,
+    "title": "Noir Dining Room",
+    "category": "Dining",
+    "location": "Mumbai",
+    "year": "2026",
+    "status": "Published"
+  },
+  {
+    "id": 10,
+    "title": "Oak & Stone Kitchen",
+    "category": "Kitchen",
+    "location": "Pune",
+    "year": "2026",
+    "status": "Published"
+  },
+  {
+    "id": 11,
+    "title": "Walnut Courtyard",
+    "category": "Living",
+    "location": "Goa",
+    "year": "2025",
+    "status": "Published"
+  },
+  {
+    "id": 12,
+    "title": "Ivory Apartment",
+    "category": "Bedroom",
+    "location": "Delhi",
+    "year": "2026",
+    "status": "Published"
+  }
+]
